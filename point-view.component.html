@@ -1,0 +1,39 @@
+<mat-toolbar color="primary">
+  <br>
+     <div class="button" >
+       <button mat-button color="accent" ><h2>TEF9 SHOP MAINTENANCE</h2></button>
+     </div> 
+       <span class="example-fill-remaining-space"></span>
+     <div class="buttonLogIn">
+       <a mat-button [routerLink]="['/home-show']"><i class="material-icons">home</i></a>
+     </div>
+   </mat-toolbar>
+<mat-card>
+  <br>
+  <h2>History Data</h2>
+  <table >
+    <tr>
+      <th>ID</th>
+      <th>Table No.</th>
+      <th>Tools No.</th>
+      <th>Responsible</th>
+      <th>Date</th> 
+      <th>Status</th>   
+    </tr>
+    <tr *ngFor="let point of points">
+      <td>{{point.id}}</td>
+      <td>{{point.addpoint.addPoint}}</td>
+      <td>{{point.mold.nameM}}</td>
+      <td>{{point.staff.staffName}}</td>
+      <td>{{point.date}}</td>
+      <td>{{point.other}}</td>
+    </tr>
+  </table>
+  <br>
+  <button mat-button [routerLink]="['/add_data']" matTooltip="back"
+          aria-label="Button that displays a tooltip when focused or hovered over"><i class="material-icons">
+    fast_rewind
+  </i>
+  </button>
+  </mat-card>
+

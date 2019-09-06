@@ -1,0 +1,170 @@
+<html>
+  <body class="inventory-body">
+        <mat-toolbar color="primary">
+       <br>
+          <div class="button" >
+            <button mat-button color="accent" (click)="insert()" routerLink="/homestaff">
+            <h2>TEF9 SHOP MAINTENANCE</h2></button>
+          </div> <p></p>
+            <span class="example-fill-remaining-space"></span>
+          <div class="buttonLogIn">
+            <button mat-button color="accent" (click)="insert()" routerLink="/history" >
+                HISTORY DATA
+            </button>
+          </div>
+        </mat-toolbar>
+
+        <br><br><br>
+
+          <div class="grid-tile">
+            <div fxLayout="row wrap" fxLayout.xs="column"   fxLayoutWrap fxLayoutGap ="24px" fxLayoutGap.xs="0"
+                 fxLayoutAlign="flex-start" fxLayoutAlign.xs="center">
+
+                 <mat-card class="example-card" >
+                  <mat-card-header> 
+                    <mat-card-title>Table : {{points[i+0].addpoint.addPoint}}</mat-card-title>
+                  </mat-card-header>
+                  <img mat-card-image width="100" height="190" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/T1.jpeg" >
+                        <p>Responsible : {{points[i+0].staff.staffName}}</p> 
+                        <p>Tools No. : {{points[i+0].mold.nameM}}</p> 
+                        <p>Status  : {{points[i+0].other}}</p>
+                        <p>Date Start : {{points[i+0].date}}</p> 
+                 
+                </mat-card>
+                <br>
+
+                <mat-card class="example-card">
+                  <mat-card-header>
+                    <mat-card-title>Table : {{points[i+1].addpoint.addPoint}}</mat-card-title> 
+                  </mat-card-header>
+                  <img mat-card-image width="100" height="190" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/T1.jpeg" >
+                        <p>Responsible : {{points[i+1].staff.staffName}}</p>
+                        <p>Tools No. : {{points[i+1].mold.nameM}}</p>
+                        <p>Status  : {{points[i+1].other}}</p>
+                        <p>Date Start : {{points[i+1].date}}</p> 
+                </mat-card>
+                <br>
+
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Table : {{points[i+2].addpoint.addPoint}}</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image width="100" height="190" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/T1.jpeg" >
+                      <p>Responsible : {{points[i+2].staff.staffName}}</p>
+                      <p>Tools No. : {{points[i+2].mold.nameM}}</p>
+                      <p>Status  : {{points[i+2].other}}</p>
+                      <p>Date Start : {{points[i+2].date}}</p> 
+              </mat-card>
+              <br>
+
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Table : {{points[i+3].addpoint.addPoint}}</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image width="100" height="190" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/T1.jpeg" >
+                      <p>Responsible : {{points[i+3].staff.staffName}}</p>
+                      <p>Tools No. : {{points[i+3].mold.nameM}}</p>
+                      <p>Status  : {{points[i+3].other}}</p>
+                      <p>Date Start : {{points[i+3].date}}</p>
+              </mat-card>
+              <br>
+
+              <mat-card class="example-card">
+                <mat-card-header>
+                  <mat-card-title>Table : {{points[i+4].addpoint.addPoint}}</mat-card-title> 
+                </mat-card-header>
+                <img mat-card-image width="100" height="190" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/T1.jpeg" >
+                      <p>Responsible : {{points[i+4].staff.staffName}}</p>
+                      <p>Tools No. : {{points[i+4].mold.nameM}}</p>
+                      <p>Status  : {{points[i+4].other}}</p>
+                      <p>Date Start : {{points[i+4].date}}</p> 
+              </mat-card>
+            </div>
+          </div> <!-- end -->
+        <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br>
+              <br> 
+              <br> 
+ <!--  -----------------------------------------------------------------------------------*/ -->
+ <div class="grid-tile">
+  <div fxLayout="row wrap" fxLayout.xs="column"   fxLayoutWrap fxLayoutGap ="24px" fxLayoutGap.xs="0"
+       fxLayoutAlign="flex-start" fxLayoutAlign.xs="center">
+
+       <mat-card class="example-card" width="300" height="290" >
+        <mat-card-header>
+          <mat-card-title>Table : {{points[i+5].addpoint.addPoint}}</mat-card-title>
+          
+        </mat-card-header>
+        <img mat-card-image width="300" height="290" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/p3.jpg.png" >
+              <p>Responsible : {{points[i+5].staff.staffName}}</p>
+              <p>Tools No. : {{points[i+5].mold.nameM}}</p>
+              <p>Status  : {{points[i+5].other}}</p>
+              <p>Date Start : {{points[i+5].date}}</p> 
+      </mat-card>
+      <br>
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>Table : {{points[i+6].addpoint.addPoint}}</mat-card-title>
+          
+        </mat-card-header>
+        <img mat-card-image width="300" height="290" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/p3.jpg.png" >
+              <p>Responsible : {{points[i+6].staff.staffName}}</p>
+              <p>Tools No. : {{points[i+6].mold.nameM}}</p>
+              <p>Status  : {{points[i+6].other}}</p>
+              <p>Date Start : {{points[i+6].date}}</p> 
+      </mat-card>
+      <br>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Table : {{points[i+7].addpoint.addPoint}}</mat-card-title>
+        
+      </mat-card-header>
+      <img mat-card-image width="300" height="290" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/p3.jpg.png" >
+            <p>Responsible : {{points[i+7].staff.staffName}}</p>
+            <p>Tools No. : {{points[i+7].mold.nameM}}</p>
+            <p>Status  : {{points[i+7].other}}</p>
+            <p>Date Start : {{points[i+7].date}}</p> <mat-card-actions>
+          
+      </mat-card-actions>
+    </mat-card>
+    <br>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Table : {{points[i+8].addpoint.addPoint}}</mat-card-title>
+        
+      </mat-card-header>
+      <img mat-card-image width="300" height="290" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/p3.jpg.png" >
+            <p>Responsible : {{points[i+8].staff.staffName}}</p>
+            <p>Tools No. : {{points[i+8].mold.nameM}}</p>
+            <p>Status  : {{points[i+8].other}}</p>
+            <p>Date Start : {{points[i+8].date}}</p> <mat-card-actions>
+          
+      </mat-card-actions>
+    </mat-card>
+    <br>
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Table : {{points[i+9].addpoint.addPoint}}</mat-card-title>
+        
+      </mat-card-header>
+      <img mat-card-image width="300" height="290" (click)="insert()" routerLink="/add-data" img class="world" src="assets/img/p3.jpg.png" >
+            <p>Responsible : {{points[i+9].staff.staffName}}</p>
+            <p>Tools No. : {{points[i+9].mold.nameM}}</p>
+            <p>Status  : {{points[i+9].other}}</p>
+            <p>Date Start : {{points[i+9].date}}</p> <mat-card-actions>
+          
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div> <!-- end -->
+        <br>
+  </body>
+
+
+</html>

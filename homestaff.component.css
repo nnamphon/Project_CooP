@@ -1,0 +1,21 @@
+.example-button-row{
+  text-align:center;
+}
+.show{
+  background-color: rgb(255, 255, 255);
+  height: 755px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.Title{
+  color: saddlebrown;
+}
+.button-row {
+  margin-bottom: 5%;
+}
+.top{
+  color: aliceblue;
+  font-size: 250%;
+  background-color: rgb(0, 0, 0);
+}

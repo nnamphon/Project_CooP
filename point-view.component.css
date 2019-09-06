@@ -1,0 +1,55 @@
+mat-grid-tile {
+  /* background: #673ab7; */
+  background: orange;
+  color : #fff;
+}
+.example-card {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+a {
+  margin: 2px;
+}
+.button button,
+.button a {
+  margin-left: auto;
+}
+.buttonLogIn button,
+.buttonLogIn a {
+  margin-right: auto;
+  size: auto;
+}
+mat-toolbar{
+  position: fixed;
+  z-index: 2;
+}
+.grid-tile{
+  margin-left: 8%;
+  
+}
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+
+}
+.example-card  {
+  max-width: 200px;
+  max-height: 500px;
+  margin-top: 5px;
+}
+.example-header-image {
+  background-image: url('https://thecoffeeclub.co.th/wp-content/uploads/2017/03/Coffeeclub_logo-uai-258x258.jpg');
+  background-size: cover;
+}
+.buttonBuy button,
+.buttonBuy a{
+  right: -50%;
+   background-color: #ba7d60;
+ }
